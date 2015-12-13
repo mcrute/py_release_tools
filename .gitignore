@@ -1,0 +1,14 @@
+*.pyc
+.pip/
+.pip2/
+.pip27/
+.pip3/
+.pip32/
+.pip34/
+.pip35/
+build/
+coverage.xml
+dist/
+htmlcov/
+*.egg-info/
+.coverage/
