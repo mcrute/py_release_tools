@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="py_release_tools",
-    version="0.1.1",
+    version="0.1.2",
     description="Python release tools",
     long_description=open("README.rst", "r").read(),
     author="Mike Crute",
@@ -15,7 +15,6 @@ setup(
         "pep8>=1.6.2",
         "mock>=1.0.1",
         "coverage>=4.0.3",
-        "setuptools>=17.1",
     ],
     entry_points={
         "distutils.commands": [

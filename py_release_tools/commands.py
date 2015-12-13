@@ -96,7 +96,7 @@ class IncrementSemanticVersion(SimpleCommand):
         new_version = self._update_version()
 
         check_output([
-            "git", "commit", "-m", "Release {}".format(new_version)])
+            "git", "commit", "-a", "-m", "Release {}".format(new_version)])
 
         simple_call("git tag release-{}".format(new_version))
 
