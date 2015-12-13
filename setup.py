@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="py_release_tools",
-    version="0.1.2",
+    version="0.1.3",
     description="Python release tools",
     long_description=open("README.rst", "r").read(),
     author="Mike Crute",

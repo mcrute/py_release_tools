@@ -94,6 +94,7 @@ class IncrementSemanticVersion(SimpleCommand):
                                  "commit all changes before release")
 
         new_version = self._update_version()
+        self.distribution.metadata.version = new_version
 
         check_output([
             "git", "commit", "-a", "-m", "Release {}".format(new_version)])
